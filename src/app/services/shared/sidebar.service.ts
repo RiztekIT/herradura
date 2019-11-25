@@ -27,6 +27,7 @@ export class SidebarService {
       icono: 'mdi mdi-gauge',
       submenu: [
         { titulo: 'Inventario', url: '/inventario', icono: 'mdi mdi-plus' },
+        { titulo: 'Administrar Productos', url: '/administrar-productos', icono: 'mdi mdi-plus' },
       ], url: '/inventario',
     },
     {
