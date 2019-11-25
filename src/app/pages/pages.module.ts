@@ -15,7 +15,7 @@ import { IncrementadorComponent } from '../components/incrementador/incrementado
 import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
 import { PuntoVentaComponent } from './punto-venta/punto-venta.component';
-import { InventarioComponent } from './inventario/inventario.component';
+import { InventarioComponent } from './Productos/inventario/inventario.component';
 import { FacturasComponent } from './facturas/facturas.component';
 import { AdministracionComponent } from './administracion/administracion.component';
 import { AlertaInventarioComponent } from '../components/alerta-inventario/alerta-inventario.component';
@@ -23,6 +23,7 @@ import { VentasGraficaComponent } from '../components/ventas-grafica/ventas-graf
 import { VentasProgresoComponent } from '../components/ventas-progreso/ventas-progreso.component';
 import { VentasEmpleadoComponent } from '../components/ventas-empleado/ventas-empleado.component';
 import { AgendaProveedoresComponent } from '../components/agenda-proveedores/agenda-proveedores.component';
+import { AdministrarProductoComponent } from './Productos/administrar-producto/administrar-producto.component';
 
 // temporal
 
@@ -43,7 +44,8 @@ import { AgendaProveedoresComponent } from '../components/agenda-proveedores/age
     VentasGraficaComponent,
     VentasProgresoComponent,
     VentasEmpleadoComponent,
-    AgendaProveedoresComponent
+    AgendaProveedoresComponent,
+    AdministrarProductoComponent,
 
     ],
     exports: [

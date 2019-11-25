@@ -5,8 +5,10 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
 import { AdministracionComponent } from './administracion/administracion.component';
 import { FacturasComponent } from './facturas/facturas.component';
-import { InventarioComponent } from './inventario/inventario.component';
+import { InventarioComponent } from './Productos/inventario/inventario.component';
 import { PuntoVentaComponent } from './punto-venta/punto-venta.component';
+import { AdministrarProductoComponent } from './Productos/administrar-producto/administrar-producto.component';
+
 
 
 
@@ -24,6 +26,7 @@ const pagesRoutes: Routes = [
             { path: 'facturas', component: FacturasComponent },
             { path: 'inventario', component: InventarioComponent },
             { path: 'punto-venta', component: PuntoVentaComponent },
+            { path: 'administrar-productos', component: AdministrarProductoComponent },
             { path: '', redirectTo: '/dashboard', pathMatch: 'full' }
 
         ]

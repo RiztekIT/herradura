@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
+declare function imprimir();
+
 @Component({
   selector: 'app-facturas',
   templateUrl: './facturas.component.html',
@@ -10,6 +12,7 @@ export class FacturasComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    imprimir();
   }
 
 }
