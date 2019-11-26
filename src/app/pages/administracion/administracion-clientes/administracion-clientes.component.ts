@@ -1,12 +1,11 @@
 import { Component, OnInit } from '@angular/core';
 declare function adminProdInit();
-
 @Component({
-  selector: 'app-administracion-usuarios',
-  templateUrl: './administracion-usuarios.component.html',
+  selector: 'app-administracion-clientes',
+  templateUrl: './administracion-clientes.component.html',
   styles: []
 })
-export class AdministracionUsuariosComponent implements OnInit {
+export class AdministracionClientesComponent implements OnInit {
 
   constructor() { }
 

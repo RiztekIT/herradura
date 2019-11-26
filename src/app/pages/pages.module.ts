@@ -26,6 +26,9 @@ import { AdministrarProductoComponent } from './Productos/administrar-producto/a
 import { AdministracionDashboardComponent } from './administracion/administracion-dashboard/administracion-dashboard.component';
 import { AdministracionUsuariosComponent } from './administracion/administracion-usuarios/administracion-usuarios.component';
 import { AdministracionImpresorasComponent } from './administracion/administracion-impresoras/administracion-impresoras.component';
+import { CatalogosComponent } from './administracion/catalogos/catalogos.component';
+import { AdministracionClientesComponent } from './administracion/administracion-clientes/administracion-clientes.component';
+import { AdministracionProveedoresComponent } from './administracion/administracion-proveedores/administracion-proveedores.component';
 // temporal
 
 
@@ -49,6 +52,9 @@ import { AdministracionImpresorasComponent } from './administracion/administraci
     AdministracionDashboardComponent,
     AdministracionUsuariosComponent,
     AdministracionImpresorasComponent,
+    CatalogosComponent,
+    AdministracionClientesComponent,
+    AdministracionProveedoresComponent,
 
     ],
     exports: [
