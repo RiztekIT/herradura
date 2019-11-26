@@ -16,33 +16,33 @@ export class SidebarService {
     },
     {
       titulo: 'Punto de Venta',
-      icono: 'mdi mdi-gauge',
+      icono: 'mdi mdi-cart',
       submenu: [
-        { titulo: 'Punto de Venta', url: '/punto-venta', icono: 'mdi mdi-plus' },
+        { titulo: 'Punto de Venta', url: '/punto-venta', icono: 'mdi mdi mdi-plus' },
       ],
        url: '/punto-venta',
     },
     {
       titulo: 'Inventario',
-      icono: 'mdi mdi-gauge',
+      icono: 'mdi mdi-view-list',
       submenu: [
-        { titulo: 'Inventario', url: '/inventario', icono: 'mdi mdi-plus' },
-        { titulo: 'Administrar Productos', url: '/administrar-productos', icono: 'mdi mdi-plus' },
+        { titulo: 'Inventario', url: '/inventario', icono: 'mdi mdi mdi-plus' },
+        { titulo: 'Administrar Productos', url: '/administrar-productos', icono: 'mdi mdi-playlist-check' },
       ], url: '/inventario',
     },
     {
       titulo: 'Facturas',
-      icono: 'mdi mdi-gauge',
+      icono: 'mdi mdi-file-document-box',
       submenu: [
-        { titulo: 'Facturas', url: '/facturas', icono: 'mdi mdi-plus' },
+        { titulo: 'Facturas', url: '/facturas', icono: 'mdi mdi-file-document-box' },
       ],url: '/facturas',
     },
     {
       titulo: 'Administracion',
-      icono: 'mdi mdi-gauge',
+      icono: 'mdi mdi-account-settings-variant',
       submenu: [
-        { titulo: 'Usuarios', url: '/administrar-usuarios', icono: 'mdi mdi-plus' },
-        { titulo: 'Impresoras', url: '/administrar-impresoras', icono: 'mdi mdi-plus' },
+        { titulo: 'Usuarios', url: '/administracion', icono: 'mdi mdi-account-plus' },
+        { titulo: 'Impresoras', url: '/administracion', icono: 'mdi mdi-printer' },
       ],url: '/administracion',
     },
   ];
