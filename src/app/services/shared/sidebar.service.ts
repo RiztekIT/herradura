@@ -10,7 +10,7 @@ export class SidebarService {
       titulo: 'Dashboard',
       icono: 'mdi mdi-gauge',
       submenu: [
-        { titulo: 'Dashboard', url: '/dashboard', icono: 'mdi mdi-plus' },
+        { titulo: 'Dashboard', url: '/dashboard', icono: 'mdi mdi-arrow-right-bold' },
       ],
        url: '/dashboard',
     },
@@ -18,7 +18,7 @@ export class SidebarService {
       titulo: 'Punto de Venta',
       icono: 'mdi mdi-cart',
       submenu: [
-        { titulo: 'Punto de Venta', url: '/punto-venta', icono: 'mdi mdi mdi-plus' },
+        { titulo: 'Punto de Venta', url: '/punto-venta', icono: 'mdi mdi mdi-arrow-right-bold' },
       ],
        url: '/punto-venta',
     },
@@ -26,8 +26,9 @@ export class SidebarService {
       titulo: 'Inventario',
       icono: 'mdi mdi-view-list',
       submenu: [
-        { titulo: 'Inventario', url: '/inventario', icono: 'mdi mdi mdi-plus' },
+        { titulo: 'Inventario', url: '/inventario', icono: 'mdi mdi mdi-arrow-right-bold' },
         { titulo: 'Administrar Productos', url: '/administrar-productos', icono: 'mdi mdi-playlist-check' },
+        { titulo: 'Compras', url: '/compras', icono: 'mdi mdi-playlist-plus' },
       ], url: '/inventario',
     },
     {
