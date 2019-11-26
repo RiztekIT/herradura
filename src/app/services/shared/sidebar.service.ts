@@ -43,7 +43,7 @@ export class SidebarService {
       submenu: [
         { titulo: 'Usuarios', url: '/administrar-usuarios', icono: 'mdi mdi-account-plus' },
         { titulo: 'Impresoras', url: '/administrar-impresoras', icono: 'mdi mdi-printer' },
-      ],url: '/administracion',
+      ],url: '/administracion-dashboard',
     },
   ];
 
