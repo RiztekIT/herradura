@@ -17,14 +17,15 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
 import { PuntoVentaComponent } from './punto-venta/punto-venta.component';
 import { InventarioComponent } from './Productos/inventario/inventario.component';
 import { FacturasComponent } from './facturas/facturas.component';
-import { AdministracionComponent } from './administracion/administracion.component';
 import { AlertaInventarioComponent } from '../components/alerta-inventario/alerta-inventario.component';
 import { VentasGraficaComponent } from '../components/ventas-grafica/ventas-grafica.component';
 import { VentasProgresoComponent } from '../components/ventas-progreso/ventas-progreso.component';
 import { VentasEmpleadoComponent } from '../components/ventas-empleado/ventas-empleado.component';
 import { AgendaProveedoresComponent } from '../components/agenda-proveedores/agenda-proveedores.component';
 import { AdministrarProductoComponent } from './Productos/administrar-producto/administrar-producto.component';
-
+import { AdministracionDashboardComponent } from './administracion/administracion-dashboard/administracion-dashboard.component';
+import { AdministracionUsuariosComponent } from './administracion/administracion-usuarios/administracion-usuarios.component';
+import { AdministracionImpresorasComponent } from './administracion/administracion-impresoras/administracion-impresoras.component';
 // temporal
 
 
@@ -39,13 +40,15 @@ import { AdministrarProductoComponent } from './Productos/administrar-producto/a
     PuntoVentaComponent,
     InventarioComponent,
     FacturasComponent,
-    AdministracionComponent,
     AlertaInventarioComponent,
     VentasGraficaComponent,
     VentasProgresoComponent,
     VentasEmpleadoComponent,
     AgendaProveedoresComponent,
     AdministrarProductoComponent,
+    AdministracionDashboardComponent,
+    AdministracionUsuariosComponent,
+    AdministracionImpresorasComponent,
 
     ],
     exports: [

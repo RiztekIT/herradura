@@ -41,8 +41,8 @@ export class SidebarService {
       titulo: 'Administracion',
       icono: 'mdi mdi-gauge',
       submenu: [
-        { titulo: 'Usuarios', url: '/administracion', icono: 'mdi mdi-plus' },
-        { titulo: 'Impresoras', url: '/administracion', icono: 'mdi mdi-plus' },
+        { titulo: 'Usuarios', url: '/administrar-usuarios', icono: 'mdi mdi-plus' },
+        { titulo: 'Impresoras', url: '/administrar-impresoras', icono: 'mdi mdi-plus' },
       ],url: '/administracion',
     },
   ];
