@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+declare function adminProdInit();
 
 @Component({
   selector: 'app-administracion-impresoras',
@@ -10,6 +11,7 @@ export class AdministracionImpresorasComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    adminProdInit();
   }
 
 }
