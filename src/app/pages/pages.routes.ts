@@ -34,7 +34,7 @@ const pagesRoutes: Routes = [
             { path: 'administrar-impresoras', component: AdministracionImpresorasComponent },
             { path: 'administrar-usuarios', component: AdministracionUsuariosComponent },
             { path: 'administrar-catalogos', component: CatalogosComponent },
-            { path: '', redirectTo: '/dashboard', pathMatch: 'full' }
+            { path: '', redirectTo: '/login', pathMatch: 'full' }
 
         ]
     }
