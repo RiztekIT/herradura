@@ -11,6 +11,7 @@ import { AdministracionImpresorasComponent } from './administracion/administraci
 import { AdministracionUsuariosComponent } from './administracion/administracion-usuarios/administracion-usuarios.component';
 import { AdministracionDashboardComponent } from './administracion/administracion-dashboard/administracion-dashboard.component';
 import { CatalogosComponent } from './administracion/catalogos/catalogos.component';
+import { ComprasComponent } from './productos/compras/compras.component';
 
 
 
@@ -34,6 +35,7 @@ const pagesRoutes: Routes = [
             { path: 'administrar-impresoras', component: AdministracionImpresorasComponent },
             { path: 'administrar-usuarios', component: AdministracionUsuariosComponent },
             { path: 'administrar-catalogos', component: CatalogosComponent },
+            { path: 'compras', component: ComprasComponent },
             { path: '', redirectTo: '/dashboard', pathMatch: 'full' }
 
         ]

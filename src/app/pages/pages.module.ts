@@ -29,6 +29,7 @@ import { AdministracionImpresorasComponent } from './administracion/administraci
 import { CatalogosComponent } from './administracion/catalogos/catalogos.component';
 import { AdministracionClientesComponent } from './administracion/administracion-clientes/administracion-clientes.component';
 import { AdministracionProveedoresComponent } from './administracion/administracion-proveedores/administracion-proveedores.component';
+import { ComprasComponent } from './productos/compras/compras.component';
 // temporal
 
 
@@ -55,6 +56,7 @@ import { AdministracionProveedoresComponent } from './administracion/administrac
     CatalogosComponent,
     AdministracionClientesComponent,
     AdministracionProveedoresComponent,
+    ComprasComponent,
 
     ],
     exports: [
