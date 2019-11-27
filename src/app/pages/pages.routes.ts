@@ -36,7 +36,9 @@ const pagesRoutes: Routes = [
             { path: 'administrar-usuarios', component: AdministracionUsuariosComponent },
             { path: 'administrar-catalogos', component: CatalogosComponent },
             { path: 'compras', component: ComprasComponent },
-            { path: '', redirectTo: '/dashboard', pathMatch: 'full' }
+            { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+            { path: '', redirectTo: '/login', pathMatch: 'full' }
+
 
         ]
     }
