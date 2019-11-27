@@ -26,7 +26,9 @@ import { AdministrarProductoComponent } from './Productos/administrar-producto/a
 import { AdministracionDashboardComponent } from './administracion/administracion-dashboard/administracion-dashboard.component';
 import { AdministracionUsuariosComponent } from './administracion/administracion-usuarios/administracion-usuarios.component';
 import { AdministracionImpresorasComponent } from './administracion/administracion-impresoras/administracion-impresoras.component';
-import { ComprasComponent } from './productos/compras/compras.component';
+import { CatalogosComponent } from './administracion/catalogos/catalogos.component';
+import { AdministracionClientesComponent } from './administracion/administracion-clientes/administracion-clientes.component';
+import { AdministracionProveedoresComponent } from './administracion/administracion-proveedores/administracion-proveedores.component';
 // temporal
 
 
@@ -50,7 +52,9 @@ import { ComprasComponent } from './productos/compras/compras.component';
     AdministracionDashboardComponent,
     AdministracionUsuariosComponent,
     AdministracionImpresorasComponent,
-    ComprasComponent,
+    CatalogosComponent,
+    AdministracionClientesComponent,
+    AdministracionProveedoresComponent,
 
     ],
     exports: [
@@ -62,7 +66,6 @@ import { ComprasComponent } from './productos/compras/compras.component';
         FormsModule,
         ChartsModule
     ]
-
 })
 
 export class PagesModule {

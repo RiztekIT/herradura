@@ -7,10 +7,11 @@ export class SidebarService {
 
   menu: any = [
     {
-      titulo: 'Dashboard',
+      titulo: 'Tablero',
       icono: 'mdi mdi-gauge',
       submenu: [
         { titulo: 'Dashboard', url: '/dashboard', icono: 'mdi mdi-arrow-right-bold' },
+        { titulo: 'Tablero Principal', url: '/dashboard', icono: 'mdi mdi-plus' },
       ],
        url: '/dashboard',
     },
@@ -28,7 +29,6 @@ export class SidebarService {
       submenu: [
         { titulo: 'Inventario', url: '/inventario', icono: 'mdi mdi mdi-arrow-right-bold' },
         { titulo: 'Administrar Productos', url: '/administrar-productos', icono: 'mdi mdi-playlist-check' },
-        { titulo: 'Compras', url: '/compras', icono: 'mdi mdi-playlist-plus' },
       ], url: '/inventario',
     },
     {
@@ -42,9 +42,8 @@ export class SidebarService {
       titulo: 'Administracion',
       icono: 'mdi mdi-account-settings-variant',
       submenu: [
-        { titulo: 'Usuarios', url: '/administracion', icono: 'mdi mdi-account-plus' },
-        { titulo: 'Impresoras', url: '/administracion', icono: 'mdi mdi-printer' },
-      ],url: '/administracion',
+        { titulo: 'Catalogos', url: '/administrar-catalogos', icono: 'mdi mdi-account-plus' },
+      ],url: '/administrar-catalogos',
     },
   ];
 
